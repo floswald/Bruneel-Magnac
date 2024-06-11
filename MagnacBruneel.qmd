@@ -1,0 +1,156 @@
+---
+title: "Discussing 'Dynamics of Households’ Consumption and Housing Decisions' by [Thierry Magnac](https://www.tse-fr.eu/fr/people/thierry-magnac) and [Christophe Bruneel](https://www.cbruneel.com/home)"
+format: 
+    revealjs:
+        theme: _extensions/grantmcdermott/clean/clean.scss
+        logo: img/ScPo-logo.png
+        footer: "[Rice Conference Paris 2024](https://floswald.github.io/Bruneel-Magnac/)"
+        incremental: false
+        code-line-numbers: false
+        highlight-style: github
+        slide-number: false
+        html-math-method: mathjax
+author: 
+  - name: Florian Oswald
+    orcid: 0000-0001-7737-2038
+    email: florian.oswald@sciencespo.fr
+    affiliations: SciencesPo Paris
+subtitle: "Rice Conference Paris 2024"
+date: today
+date-format: "D MMMM, YYYY"
+bibliography: refs.bib
+
+---
+
+
+## Overview
+
+* Paper in the best tradition of careful investigation of identification in complex structural models.
+* Novel result on joint identification of exogenous moving shock and fixed costs of moving.
+* Promising results from beginnings of structural estimation.
+
+. . .
+
+👍
+
+. . .
+
+* Paper is still much work in progress, so many _promises_ indeed. 😉
+* I will pose some clarifying questions. 
+
+# Questions {background-color="#40666e"}
+
+## Questions
+
+### What is correct form of utility?
+
+![](img/utility.png)
+
+* Is this correct? how does this affect substitution between c and s? made it very difficult for me to follow paper.
+
+::: {.callout-tip}
+
+# @bajari
+
+It seems you are following this paper closely, which is fine. I did look at their utility function to try and understand better.
+
+:::
+
+
+
+## Questions
+
+### What is the contribution of the paper?
+
+* Very lengthy literature section which tries to cover a lot of different literatures. 
+  
+* Define the contribution early on. 
+
+
+## Questions
+
+### What is $\eta$ ?
+
+::: {.callout-warning}
+
+# What is $\eta$ ?
+
+We don't want to end up thinking _they included $\eta$ because that allows a neat identification proof_. 
+
+:::
+
+👉 Tell us early on. 
+
+👉 It's not clear _at all_ why we need $\epsilon$ _and_ $\eta$. 
+
+👉 The existence of the entire paper hinges on it, so tell us more about it. 
+
+
+## Questions
+
+### Table 1 
+
+![](img/table1.png)
+
+
+# Main Comments {background-color="#40666e"}
+
+## Main Comments
+
+### $s$ is not _Quality_
+
+::: {#fig-seloger layout-ncol=2}
+
+![An 80 $m^2$ Flat.](img/seloger1.png){#fig-sl1}
+
+![An 80 $m^2$ Flat.](img/seloger2.png){#fig-sl2}
+
+Two _identical_ flats.
+:::
+
+
+## Main Comments
+
+### $s$ is not _Quality_
+
+* Quality might differ across $d$ [@halket2020housing]
+* An owner of a 80 m2 flat who moves from Paris to an 80 m2 (owned) flat in Lyon is not moving in the model. Clearly moves in reality.
+* The location (area, neighborhood) is potentially an important determinant of moving choices. Given $s$ is defined as _size_, this characteristic of the house i smissing. 
+* Affects choices via shock $p^m$. Some discussion and expected size of biases should be added. What fraction of movers go to a different neighorhood/city/area and into same $s$?
+
+## Main Comments
+
+### $s$ is not _Quality_
+
+![](img/figure1.png){fig-align="center"}
+
+
+## Main Comments
+
+### Proving Separate Identification of Objects
+
+* Should probably be the focus of the paper.
+
+![](img/figure6.png){fig-align="center"}
+
+
+
+
+# Computation {background-color="#40666e"}
+
+## Computational Concerns?
+
+* What are the computational implications of the method? We do not get many insights into computational performance. Usually, models of this kind face binding constraints in terms of computational feasibility.
+* In that sense, how does this method compare to recent advances by @iskhakov2017endogenous @DRUEDAHL201787 or @oswald2019effect and similar efforts?
+  
+
+# End
+
+
+
+
+
+## References
+
+::: {#refs}
+:::
