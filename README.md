@@ -1,4 +1,5 @@
-# ScPo PhD Breakfast
+# Discussion of Bruneel and Magnac
 
-* 2024 edition
-* uses https://github.com/grantmcdermott/quarto-revealjs-clean# Bruneel-Magnac
+* uses https://github.com/grantmcdermott/quarto-revealjs-clean# 
+
+
