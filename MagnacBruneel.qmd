@@ -35,8 +35,15 @@ bibliography: refs.bib
 
 . . .
 
-* Paper is still much work in progress, so many _promises_ indeed. 😉
-* I will pose some clarifying questions. 
+* Paper is still much work in progress.
+* I will pose some clarifying questions, hopefully helpful.
+
+## Overview
+
+* Dynamic Housing Demand models are complex: mixed discrete (move/not) - continuous (size of house, assets, consumption) choices 
+* Most papers rely on strict parameterization of moving costs.
+* Proofs of identification is rare in this literature.
+* 
 
 # Questions {background-color="#40666e"}
 
@@ -46,7 +53,7 @@ bibliography: refs.bib
 
 ![](img/utility.png)
 
-* Is this correct? how does this affect substitution between c and s? made it very difficult for me to follow paper.
+* Is this correct? how does this affect substitution between $c$ and $s$? 
 
 ::: {.callout-tip}
 
@@ -66,18 +73,13 @@ It seems you are following this paper closely, which is fine. I did look at thei
   
 * Define the contribution early on. 
 
+* The potential policy experimens remain somewhat vague. 
+
 
 ## Questions
 
 ### What is $\eta$ ?
 
-::: {.callout-warning}
-
-# What is $\eta$ ?
-
-We don't want to end up thinking _they included $\eta$ because that allows a neat identification proof_. 
-
-:::
 
 👉 Tell us early on. 
 
@@ -142,6 +144,7 @@ Two _identical_ flats.
 
 * What are the computational implications of the method? We do not get many insights into computational performance. Usually, models of this kind face binding constraints in terms of computational feasibility.
 * In that sense, how does this method compare to recent advances by @iskhakov2017endogenous @DRUEDAHL201787 or @oswald2019effect and similar efforts?
+
   
 
 # End
