@@ -8,7 +8,7 @@ format:
         incremental: false
         code-line-numbers: false
         highlight-style: github
-        slide-number: false
+        slide-number: true
         html-math-method: mathjax
 author: 
   - name: Florian Oswald
@@ -41,13 +41,13 @@ bibliography: refs.bib
 ## Overview
 
 * Dynamic Housing Demand models are complex: mixed discrete (move/not) - continuous (size of house, assets, consumption) choices 
-* Most papers rely on strict parameterization of moving costs.
+* Most (macro) papers rely on strict parameterization of moving costs.
 * Proofs of identification is rare in this literature.
-* 
 
-# Questions {background-color="#40666e"}
 
-## Questions
+# Clarifying Questions {background-color="#40666e"}
+
+## Clarifying Questions
 
 ### What is correct form of utility?
 
@@ -59,13 +59,13 @@ bibliography: refs.bib
 
 # @bajari
 
-It seems you are following this paper closely, which is fine. I did look at their utility function to try and understand better.
+It seems you are following this paper closely. I did look at their utility function to try and understand better.
 
 :::
 
 
 
-## Questions
+## Clarifying Questions
 
 ### What is the contribution of the paper?
 
@@ -75,20 +75,24 @@ It seems you are following this paper closely, which is fine. I did look at thei
 
 * The potential policy experimens remain somewhat vague. 
 
+* I think the proofs leading to identification are impressive and should be (part of) the main contribution.
 
-## Questions
+
+## Clarifying Questions
 
 ### What is $\eta$ ?
 
 
 👉 Tell us early on. 
 
-👉 It's not clear _at all_ why we need $\epsilon$ _and_ $\eta$. 
+👉 It's not clear why we need 2 utility shocks $\epsilon$ _and_ $\eta$. 
 
-👉 The existence of the entire paper hinges on it, so tell us more about it. 
+👉 The existence of the entire paper hinges on it, so tell us more about it: Is it unobserved preference heterogeneity? But it's time varying. Which features of the data will identify it?
+
+👉 Relate to other approaches to model unobserved heterogeneity which discretize types?
 
 
-## Questions
+## Clarifying Questions
 
 ### Table 1 
 
